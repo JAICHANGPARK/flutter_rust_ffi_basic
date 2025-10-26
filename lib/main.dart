@@ -82,7 +82,7 @@ class _MyAppState extends State<MyApp> {
                     }
                     if (snapshot.hasData) {
                       return Text(
-                        '작업 결과:\n${snapshot.data}',
+                        'Result:\n${snapshot.data}',
                         textAlign: TextAlign.center,
                         style: Theme.of(context).textTheme.headlineSmall,
                       );
