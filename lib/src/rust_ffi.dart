@@ -54,14 +54,11 @@ class RustFFI {
       .lookup<NativeFunction<Void Function(Pointer<Utf8>)>>('free_string')
       .asFunction();
 
-  // 3. 무거운 작업을 위한 비동기 래퍼 함수 작성
   static Future<String> heavyComputationAsync(String name) async {
-    // FFI 호출을 다른 Isolate로 옮겨 UI 스레드 차단을 방지합니다.
     return compute(_heavyComputationIsolate, name);
   }
 
   static String heavyComputation(String name) {
-    // FFI 호출을 다른 Isolate로 옮겨 UI 스레드 차단을 방지합니다.
     return _heavyComputationIsolate(name);
   }
 }
