@@ -21,8 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2B505D092EACA8D000F519C0 /* libflutter_rust_lib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B505D082EACA8D000F519C0 /* libflutter_rust_lib.dylib */; };
-		2B505D0A2EACA8D000F519C0 /* libflutter_rust_lib.dylib in Bundle Framework */ = {isa = PBXBuildFile; fileRef = 2B505D082EACA8D000F519C0 /* libflutter_rust_lib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2BEB9C452EAE778500F7BA78 /* libflutter_rust_lib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEB9C442EAE778500F7BA78 /* libflutter_rust_lib.dylib */; };
+		2BEB9C462EAE778500F7BA78 /* libflutter_rust_lib.dylib in Bundle Framework */ = {isa = PBXBuildFile; fileRef = 2BEB9C442EAE778500F7BA78 /* libflutter_rust_lib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		331C80D8294CF71000263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C80D7294CF71000263BE5 /* RunnerTests.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
 		33CC10F12044A3C60003C045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC10F02044A3C60003C045 /* AppDelegate.swift */; };
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2B505D0A2EACA8D000F519C0 /* libflutter_rust_lib.dylib in Bundle Framework */,
+				2BEB9C462EAE778500F7BA78 /* libflutter_rust_lib.dylib in Bundle Framework */,
 			);
 			name = "Bundle Framework";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B505D082EACA8D000F519C0 /* libflutter_rust_lib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libflutter_rust_lib.dylib; path = Runner/libflutter_rust_lib.dylib; sourceTree = "<group>"; };
+		2BEB9C442EAE778500F7BA78 /* libflutter_rust_lib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libflutter_rust_lib.dylib; path = Runner/libflutter_rust_lib.dylib; sourceTree = "<group>"; };
 		331C80D5294CF71000263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331C80D7294CF71000263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		333000ED22D3DE5D00554162 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B505D092EACA8D000F519C0 /* libflutter_rust_lib.dylib in Frameworks */,
+				2BEB9C452EAE778500F7BA78 /* libflutter_rust_lib.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +180,7 @@
 		D73912EC22F37F3D000D13A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B505D082EACA8D000F519C0 /* libflutter_rust_lib.dylib */,
+				2BEB9C442EAE778500F7BA78 /* libflutter_rust_lib.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
